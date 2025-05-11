@@ -1,0 +1,537 @@
+whoami
+ls -l
+cd repogit
+ls -l
+ssh-keygen -t ed255519
+ssh-keygen -t ed25519
+ls -l .ssh/
+cd ..
+ls -l .ssh/
+cat .ssh/id_ed25519.pub
+exit
+man man
+cat man
+man cat
+pwd
+whoami
+ls
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+pdw
+cd ..
+pwd
+cd .ssh/
+ls
+cat *.*
+cat * 
+cd ..
+cat .ssh/id_ed25519.pub
+cat /home/vagrant/.ssh/id_ed25519.pub
+mkdir clase4
+ls -l
+cd clase4
+cat > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat << FIN > archivo2.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+cat archivo2.txt 
+ls
+cat archivo1.txt 
+cat archivo1.txt > archivo3.txt
+ls -l
+cat archivo3.txt 
+cat archivo2.txt 
+cat archivo2.txt >> archivo3.txt 
+cat archivo3.txt 
+cat archivo2.txt archivo1.txt > archivo4.txt  
+ls - l
+ls -l
+cat archivo4.txt 
+man grep
+grep 6 archivo4.txt 
+grep -v archivo4.txt
+grep -v 6 archivo4.txt
+grep -n 6 archivo4.txt
+cd ..
+ls -l
+tree
+apt  install tree 
+sudo apt  install tree
+sudo snap install tree
+tree
+cat /proc/cpuinfo | less
+grep cat /proc/cpuinfo |  grep cat /proc/cpuinfo
+grep cat /proc/cpuinfo
+rmdir clase4
+mkdir clase5
+ls -l
+rmdir clase5
+ls -l
+cd clase4
+ls -l
+touch vacio.txt
+ls -l
+cp archivo1.txt copia1.txt
+ls -l
+rm vacio.txt 
+ls -l
+cd ..
+cd clase4
+mkdir copia
+ls -l
+mv copia1.txt copia/
+ls -l
+ls -l copia
+tree
+rm -r copia/
+tree
+ls -l
+mkdir dir1 dir2 dir3
+tree
+mkdir -p dir1/dir2/dir3/dir4
+tree
+mkdir -p {ventas,compras}/{recibos,facturas}
+tree
+mkdir -p {ala1/dog{1..3},alas2/{dog{1..3},cat}
+tree
+exit
+ls -l
+cat -help
+cat help
+cat --help
+ls -l
+cat > linea1.txt
+cat --help
+man man
+pwd
+ls
+ls -l
+ls - la
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+pwd
+cd ..
+pwd
+cat linea1.txt | more
+cd .ssh/
+ls
+cat *.*
+cd ..
+cat .ssh/linea1.txt
+cat .ssh/id_ed25519.pub 
+cd clase4
+cat > archivo1.txt
+ls -l
+cd clase4
+cat archivo1.txt 
+ls -l
+cat archivo1.txt 
+ca << FIN > archivo2.txt 
+linea6
+FIN
+
+cat archivo2.txt 
+ls
+cat archivo1.txt  > archivo3.txt 
+ls -l
+cat archivo3.txt
+cat archivo2.txt
+cat archivo2.txt >> archivo3.txt 
+cat archivo3.txt 
+cat archivo2.txt archivo1.txt > archivo4.txt 
+ls -l
+ls
+mkdir Documentos
+cat > file1.txt
+ls -l
+cat file1.txt 
+cat file2.txt 
+cat > file2.txt
+cat file3.txt
+ls -l
+cat > file3.txt
+ls -l
+cat file1.txt file2.txt >> file3.txt 
+cat file3.txt 
+cd documentos
+cd Documentos
+ls
+cd Documentos
+cat > file1.txt
+cat > file2.txt
+ls - l
+ls -l
+cat > file3.txt
+cat file1.txt file2.txt  >> file3.txt 
+cat file3.txt 
+cat file2.txt >> file3.txt 
+cat file3.txt 
+cat > archivo1.txt
+cat > archivo2.txt
+grep dias archivo1.txt
+grep dias -n archivo1.txt 
+grep dias -c archivo1.txt 
+grep martes archivo1.txt | grep martes archivo2.txt 
+grep martes -i archivo1.txt | grep martes -i archivo2.txt 
+grep Martes archivo1.txt | grep Martes archivo2.txt 
+whoiam
+whoami
+id
+mkdir clase4
+cd clase4
+mkdir prectica
+ls -l
+ls
+cd prectica
+ls -l
+ls
+cat practica1.txt
+vagrant status
+cd prectica
+ls -l
+cd clase4
+cd prectica
+ls -l
+clear
+mkdir practica
+cd practica
+ls -l
+cat > practica1.txt
+ls -l
+cat practica1.txt > practica2.txt
+ls -l
+rm practica1.txt 
+ls -l
+mv practica2.txt/clase4/
+ls
+ls -l
+cat practica2.txt
+mv practica2.txt /clase4/
+mv practica2.txt /clase4/practica
+cd clase4
+cd practica
+ls -l
+mv practica2.txt 
+mv practica2.txt ..
+ls -l
+tree
+cd ..
+tree
+clear
+tree
+rmdir clase4
+mkdir clase5
+ls -l
+rmdri clase5
+rmdir clase5
+ls -l
+cd clase4
+ls -l
+touch vacio.txt
+ls -l
+cp archivo1.txt copia1.txt
+ls -l
+rm vacio.txt 
+ls -l
+mkdir copia
+ls -l
+mv copia1.txt copia/
+ls -l
+ls -l copia/
+tree
+rm -r copia/
+tree
+mkdir dir1 dir2 dir3
+vagrant status
+ls -l
+ls -l /home
+clear
+pwd
+ls -l .ssh/
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+PWD
+pwd
+cd repogit
+ls -l
+git clone git@github.com:Magali09/TP_AySO_Cristofori_Magali.git
+ssh-keygen -t ed25519
+ls -l
+ls -la
+ls -l .ssh/
+cat $HOME/.ssh/*.pub
+pws
+pwd
+cd repogit
+ls -l
+git clone git@github.com:Magali09/TP_AySO_Cristofori_Magali.git
+ls -l
+cd TP_AySO_Cristofori_Magali/.git/
+cd ..
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep -i Home_URL /etc/os-release 
+grep HOME_URL /etc/os-release > datos_url.txt
+ls -l
+cat datos_url.txt 
+git add .
+git status
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_url.txt"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_url.txt"
+git status
+git push
+pwd
+ls -l
+whoami
+echo "usuario:magali_cristofori" > datos_usuario.txt
+ls - l
+whoami
+who
+ls -l datos_usuario.txt 
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+git status
+cat <<EOF >> README.md
+Alumno: Magalí Cristofori
+División: 115
+Turno: Mañana
+EOF
+
+tail -n 3 README.md
+git add README.md datos_usuario.txt
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p ~/Material1/uni{1,2,3} ~/Material2/uni{1,2,3}
+tree ~/Material1 ~/Material2
+mkdir -p ~/Material1/uni{1,2,3} ~/Material2/uni{1,2,3}' > script_dir.sh
+chmod +x script_dir.sh
+
+q
+echo '#!/bin/bash
+mkdir -p ~/Material1/uni{1,2,3} ~/Material2/uni{1,2,3}' > script_dir.sh
+chmod +x script_dir.sh
+cat script_dir.sh
+git add .
+man
+man man
+q
+pwd
+useradd -m -s /bin/bash -c "esto es un comentario" newuser
+groupadd NewGroup
+grep magali/etc/passwd
+cat filename.txt
+cat > archivo1.txt
+cat source.txt > archivo2.txt
+cat archivo1.txt > archivo2.txt
+ls -l
+grep -l estas ./*
+cat archivo1.txt
+cat archivo3.txt
+cat > archivo1.txt
+pwd
+cd Documentos
+ls -l
+sudo mv
+sudo mv archivo3.txt
+mv --help
+mv archivo3.txt -T SOURCE DEST
+mv archivo3.txt DIRECTORY
+mv /home/vagrant/archivo3.txt /home/vagrant/Documentos/
+cd ..
+ls -l
+pwd
+mv /home/vagrant/archivo3.txt /home/vagrant/Documentos/
+mv /home/vagrant/archivo1.txt /home/vagrant/Documentos/
+cd Documentos
+ls -l
+ls -l archivo1.txt/
+ls -l /archivo1.txt
+ls -l /archivo1.txt/
+cd ..
+ls -l /archivo1.txt/
+ls -l /archivo1.txt
+ls -l archivo1.txt/
+mv archivo1.txt Documentos/
+cd ~
+ls - l
+ls -l
+cat > maga1.txt
+ls -l maga1.txt 
+mv maga1.txt Documentos/
+ls -l /Documentos/
+cat /Documentos/maga1.txt
+ls -l ~/Documentos/
+cat ~/Documentos/maga1.txt
+/home/vagrant/Documentos/maga1.txt
+cat /home/vagrant/Documentos/maga1.txt
+pwd
+cd Documentos
+ls -l
+cd ..
+pwd
+cd ..
+cd vagrant
+ped
+pwd
+sudo adduser nombre_usuario
+cd /home/magali
+grep magali /etc/passwd
+sudo grep magali/etc/shadow
+useradd -m -s /bin/bash -c "esto es un comentario" newuser
+groupadd nuevogrupo
+sudo useradd -m -s /bin/bash -c "esto es un comentario" newuser
+sudo groupadd nuevogrupo
+sudo grep magali /etc/shadow
+sudo groupadd alumnos
+useradd -m -s /bin/bash -c "Alumno pepe" -G alumnos pepe
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G alumnos pepe
+grep pepe/etc/passwd
+grep -i alumno/etc/group
+id
+ls -l/home
+grep pepe /etc/passwd
+grep -i alumno /etc/group
+ls -l/home
+ls -l /home
+id pepe
+sudo passwd pepe
+passwd pepe
+su -pepe
+grep pepe /etc/shadow | awk -F ':' '{print $2}'
+userdel pepe
+usermod -G alumno pepe
+usermod -G alumnos pepe
+cannot lock /etc/passwd
+exit
+whoami
+id
+w
+last
+grep vagrant /etc/passwd
+sudo grep vagrant /etc/shadow
+useadd -m
+useradd -m
+useradd -s
+useradd --c
+useradd -c
+useradd -m -s /bin/bash
+useradd -m -s /bin/bash -c'Esto es un comentario'
+groupadd Alumnos
+sudo groupadd Alumnos
+useradd -m -s /bin/bash -c'Alumna maga' -G Alumnos maga
+sudo useradd -m -s /bin/bash -c'Alumna maga' -G Alumnos maga
+grep maga/etc/passwd
+sudo grep maga/etc/passwd
+grep maga /etc/passwd
+grep -i alumnos /etc/group
+grep -i Alumnos /etc/group
+id
+id maga
+id pepe
+ls -l/home
+ls -l /home
+passwd maga
+sudo passwd maga
+su -maga
+sudo su -maga
+sudo su - maga
+sudo usermod -aG sudo maga
+su - maga
+cd Documentos
+ls -l
+whoami
+grep maga /etc/passwd
+su maga
+sudo useradd -m -s /bin/bash -c "esto es un comentario" newuser
+cd ..
+su maga
+sudo usermod -s /bin/bash maga
+su - maga
+pwd
+cd documentos
+cd Documentos
+pwd
+cd ..
+sudo usermod -s /bin/bash maga
+pwd
+sudo usermod -s /bin/bash maga
+su - maga
+ls -l
+cd /home/maga
+ls -l /home/maga
+su maga
+sudo usermod -aG sudo maga
+groups maga
+su - maga
+mkdir clase5
+ls -l
+cd clase5
+echo "linea1" > practica1.txt
+echo "linea1" > practica2.txt
+ls -l
+chmod 600 practica1.txt 
+chmod 444 practica2.txt 
+ls -l
+echo "linea2" >> practica2.txt
+sudo echo "linea2" >> practica2.txt
+chmod 644 practica2.txt 
+ls -l
+sudo echo "linea2" >> practica2.txt
+cat practica2.txt 
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l
+ls -l clase5
+chmod 666 clase5/*
+ls -l
+ls -l clase5
+ls -l .ssh/
+cat $HOME/.ssh/*.pub 
+pwd
+cd repogit
+ls -l
+cd TP_AySO_Cristofori_Magali/
+LS -L
+ls -l
+man grep
+grep HOME_URL /etc/os-release 
+grep -i HOME_UrL /etc/os-release 
+grep -i HOME_UrL /etc/os-release> datos_url.txt 
+ls -l
+cat datos_url.txt 
+mkdir -p /materia{1,2}/unidad{1,2,3}
+mkdir -p ~/compuesto/materia{1,2}/unidad{1,2,3}
+tree
+echo 'mkdir -p ~/compuesto/materia{1,2}/unidad{1,2,3}' > script_dir.sh
+chmod +x script_dir.sh
+git add script_dir.sh
+cd ~/repogit/TP_AySO_Cristofori_Magali
+mkdir -p ~/compuesto/materia{1,2}/unidad{1,2,3}
+tree
+mkdir -p ~/compuesto/materia{1,2}/unidad{1,2,3}
+tree
+mv ~/script_dir.sh .
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+git status
+history -a
